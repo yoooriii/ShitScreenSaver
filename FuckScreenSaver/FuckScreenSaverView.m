@@ -19,7 +19,7 @@
 @property (nonatomic, assign) NSInteger	skipFrameCounter;
 @property (nonatomic, retain) NSArray	*allQuotations;
 @property (nonatomic, retain) NSError	*loadError;
-@property (nonatomic, retain) NSDate	*startTime;
+@property (nonatomic, assign) NSTimeInterval	startTimeInterval;
 //
 @property (nonatomic, retain) IBOutlet NSPanel	*settingsPanel;
 @end
@@ -50,7 +50,7 @@
 - (void)startAnimation
 {
     [super startAnimation];
-	self.startTime = [NSDate date];
+	self.startTimeInterval = [NSDate timeIntervalSinceReferenceDate] + rand() % 100;
 	self.screenRect = [NSScreen mainScreen].frame;
 	[self takeNextQuotation];
 	[self moveTextToStartPosition];
@@ -67,7 +67,7 @@
 	
 	if (self.titleText) {
 		CGFloat posY = rect.size.height + rect.origin.y - 300;
-		const NSTimeInterval dt = -[self.startTime timeIntervalSinceNow];
+		const NSTimeInterval dt = [NSDate timeIntervalSinceReferenceDate] - self.startTimeInterval;
 		CGFloat offY = cosf(dt) * 25.0f;
 		[self.titleText drawAtPoint:NSMakePoint(20, posY+offY)];
 	}
