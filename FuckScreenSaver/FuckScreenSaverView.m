@@ -73,13 +73,13 @@
 	}
 	
 	if (0 != self.skipFrameCounter) {
-		[[NSColor redColor] set];
+		[[NSColor colorWithCalibratedRed:0.1 green:0 blue:0 alpha:1] set];
 		CGRect ellipse = CGRectMake(100, 100, 50, 50);
 		CGContextFillEllipseInRect(cx, ellipse);
 		return;
 	}
 	
-	[[NSColor greenColor] set];
+	[[NSColor colorWithCalibratedRed:0 green:0.1 blue:0 alpha:1] set];
 	CGRect ellipse = CGRectMake(10, 10, 100, 100);
 	CGContextFillEllipseInRect(cx, ellipse);
 	

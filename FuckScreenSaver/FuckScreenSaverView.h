@@ -11,3 +11,10 @@
 @interface FuckScreenSaverView : ScreenSaverView
 
 @end
+
+/*
+ view:
+ [ layer0 | layer1 | layer2 | layer3 ]
+ layer.width = view.width/4
+ and move em
+*/
