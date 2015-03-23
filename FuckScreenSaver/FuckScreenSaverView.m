@@ -166,7 +166,7 @@
 	NSDictionary *attributes = @{ NSFontAttributeName : font,
 								  NSForegroundColorAttributeName : [NSColor lightGrayColor],
 								  NSBackgroundColorAttributeName : [NSColor clearColor]};
-	NSMutableAttributedString *resultString = [[NSMutableAttributedString alloc] initWithString:text attributes:attributes];
+	NSMutableAttributedString *resultString = [[NSMutableAttributedString alloc] initWithString:text];
 	if (NSNotFound != divRange.location) {
 		//	tail
 		divRange.length = resultString.length - divRange.location;
@@ -178,6 +178,9 @@
 									  NSForegroundColorAttributeName : [NSColor whiteColor],
 									  NSBackgroundColorAttributeName : [NSColor clearColor]};
 		[resultString setAttributes:attributes range:divRange];
+	}
+	else {
+		[resultString setAttributes:attributes range:NSMakeRange(0, resultString.length)];
 	}
 	self.screenText1 = resultString;
 	CTFramesetterRef framesetter = CTFramesetterCreateWithAttributedString((CFAttributedStringRef)self.screenText1);

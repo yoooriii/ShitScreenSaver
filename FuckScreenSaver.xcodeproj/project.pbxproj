@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0C481E1AC0692900AF371C /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C481D1AC0692900AF371C /* thumbnail.png */; };
 		E26EE90D1ABEC9390080FCE4 /* FuckScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = E26EE90C1ABEC9390080FCE4 /* FuckScreenSaverView.h */; };
 		E26EE90F1ABEC9390080FCE4 /* FuckScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EE90E1ABEC9390080FCE4 /* FuckScreenSaverView.m */; };
 		E26EE9171ABED8F10080FCE4 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26EE9161ABED8F10080FCE4 /* icon.jpg */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0C481D1AC0692900AF371C /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		E26EE9071ABEC9390080FCE4 /* Fuck Scr Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuck Scr Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26EE90B1ABEC9390080FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26EE90C1ABEC9390080FCE4 /* FuckScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckScreenSaverView.h; sourceTree = "<group>"; };
@@ -53,7 +55,6 @@
 		E26EE93A1ABF54810080FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26EE93B1ABF54810080FCE4 /* ScrSaverTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrSaverTesterTests.m; sourceTree = "<group>"; };
 		E26EE9441ABF69D40080FCE4 /* OptionsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsWindow.xib; sourceTree = "<group>"; };
-		E26EE94A1ABF70690080FCE4 /* appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = appicon.icns; path = "../../../../../Library/Developer/Xcode/DerivedData/FuckScreenSaver-bztomipozpgsxvgzrehdnfcdaksd/Build/Products/Debug/Fuck Scr Saver.saver/Contents/Resources/appicon.icns"; sourceTree = "<group>"; };
 		E26EE94E1ABF71210080FCE4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = FuckScreenSaver/Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +129,7 @@
 		E26EE9151ABED8F10080FCE4 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				E26EE94A1ABF70690080FCE4 /* appicon.icns */,
+				6E0C481D1AC0692900AF371C /* thumbnail.png */,
 				E26EE91A1ABF4C8A0080FCE4 /* quotations.txt */,
 				E26EE9161ABED8F10080FCE4 /* icon.jpg */,
 			);
@@ -300,6 +301,7 @@
 				E26EE9171ABED8F10080FCE4 /* icon.jpg in Resources */,
 				E26EE94F1ABF71210080FCE4 /* Media.xcassets in Resources */,
 				E26EE91B1ABF4C8A0080FCE4 /* quotations.txt in Resources */,
+				6E0C481E1AC0692900AF371C /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +551,7 @@
 				E26EE9141ABEC9390080FCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26EE93D1ABF54810080FCE4 /* Build configuration list for PBXNativeTarget "ScrSaverTester" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +560,7 @@
 				E26EE93F1ABF54810080FCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26EE9401ABF54810080FCE4 /* Build configuration list for PBXNativeTarget "ScrSaverTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +569,7 @@
 				E26EE9421ABF54810080FCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
