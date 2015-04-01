@@ -21,6 +21,11 @@
 		E25C81561ACB672F008C7394 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25C81551ACB672F008C7394 /* Images.xcassets */; };
 		E25C81591ACB6730008C7394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C81571ACB6730008C7394 /* Main.storyboard */; };
 		E25C816E1ACB67F3008C7394 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C816D1ACB67F3008C7394 /* TestView.m */; };
+		E25C81721ACBE1E5008C7394 /* CIFilter(extra).h in Headers */ = {isa = PBXBuildFile; fileRef = E25C81701ACBE1E5008C7394 /* CIFilter(extra).h */; };
+		E25C81731ACBE1E5008C7394 /* CIFilter(extra).m in Sources */ = {isa = PBXBuildFile; fileRef = E25C81711ACBE1E5008C7394 /* CIFilter(extra).m */; };
+		E25C81741ACBE1E5008C7394 /* CIFilter(extra).m in Sources */ = {isa = PBXBuildFile; fileRef = E25C81711ACBE1E5008C7394 /* CIFilter(extra).m */; };
+		E25C81781ACBE8A1008C7394 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25C81761ACBE8A1008C7394 /* 4.jpg */; };
+		E25C81791ACBE8A1008C7394 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E25C81771ACBE8A1008C7394 /* 5.jpg */; };
 		E26EE90D1ABEC9390080FCE4 /* FuckScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = E26EE90C1ABEC9390080FCE4 /* FuckScreenSaverView.h */; };
 		E26EE90F1ABEC9390080FCE4 /* FuckScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EE90E1ABEC9390080FCE4 /* FuckScreenSaverView.m */; };
 		E26EE9171ABED8F10080FCE4 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26EE9161ABED8F10080FCE4 /* icon.jpg */; };
@@ -55,6 +60,10 @@
 		E25C81581ACB6730008C7394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25C816C1ACB67F3008C7394 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		E25C816D1ACB67F3008C7394 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		E25C81701ACBE1E5008C7394 /* CIFilter(extra).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CIFilter(extra).h"; path = "../../../CommonCategoriesObjc/CIFilter(extra).h"; sourceTree = "<group>"; };
+		E25C81711ACBE1E5008C7394 /* CIFilter(extra).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CIFilter(extra).m"; path = "../../../CommonCategoriesObjc/CIFilter(extra).m"; sourceTree = "<group>"; };
+		E25C81761ACBE8A1008C7394 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		E25C81771ACBE8A1008C7394 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		E26EE9071ABEC9390080FCE4 /* Fuck Scr Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuck Scr Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26EE90B1ABEC9390080FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26EE90C1ABEC9390080FCE4 /* FuckScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckScreenSaverView.h; sourceTree = "<group>"; };
@@ -140,6 +149,8 @@
 		E25C814A1ACB672F008C7394 /* TestCoreImage */ = {
 			isa = PBXGroup;
 			children = (
+				E25C81751ACBE8A1008C7394 /* resources */,
+				E25C816F1ACBE1D1008C7394 /* categories */,
 				E25C814D1ACB672F008C7394 /* AppDelegate.h */,
 				E25C814E1ACB672F008C7394 /* AppDelegate.m */,
 				E25C81521ACB672F008C7394 /* ViewController.h */,
@@ -160,6 +171,24 @@
 				E25C81501ACB672F008C7394 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E25C816F1ACBE1D1008C7394 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				E25C81701ACBE1E5008C7394 /* CIFilter(extra).h */,
+				E25C81711ACBE1E5008C7394 /* CIFilter(extra).m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		E25C81751ACBE8A1008C7394 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E25C81761ACBE8A1008C7394 /* 4.jpg */,
+				E25C81771ACBE8A1008C7394 /* 5.jpg */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 		E26EE8FD1ABEC9380080FCE4 = {
@@ -255,6 +284,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25C81721ACBE1E5008C7394 /* CIFilter(extra).h in Headers */,
 				E25C80871ACB4152008C7394 /* MangaScreenSaver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +427,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25C81781ACBE8A1008C7394 /* 4.jpg in Resources */,
+				E25C81791ACBE8A1008C7394 /* 5.jpg in Resources */,
 				E25C81561ACB672F008C7394 /* Images.xcassets in Resources */,
 				E25C81591ACB6730008C7394 /* Main.storyboard in Resources */,
 			);
@@ -431,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25C80881ACB4152008C7394 /* MangaScreenSaver.m in Sources */,
+				E25C81731ACBE1E5008C7394 /* CIFilter(extra).m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +473,7 @@
 			files = (
 				E25C816E1ACB67F3008C7394 /* TestView.m in Sources */,
 				E25C81541ACB672F008C7394 /* ViewController.m in Sources */,
+				E25C81741ACBE1E5008C7394 /* CIFilter(extra).m in Sources */,
 				E25C81511ACB672F008C7394 /* main.m in Sources */,
 				E25C814F1ACB672F008C7394 /* AppDelegate.m in Sources */,
 			);
@@ -678,6 +712,7 @@
 				E25C81681ACB6730008C7394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26EE9011ABEC9380080FCE4 /* Build configuration list for PBXProject "FuckScreenSaver" */ = {
 			isa = XCConfigurationList;

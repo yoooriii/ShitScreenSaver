@@ -10,6 +10,8 @@
 	<string>FuckScreenSaver</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>198DDD6E56807D5D56A23B326375A8004C2795BE</key>
+		<string>https://github.com/yoooriii/CommonCategoriesObjc.git</string>
 		<key>296CEA69A4E4045340250E1337B43AAC405E02C2</key>
 		<string>https://github.com/yoooriii/ShitScreenSaver.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>FuckScreenSaver.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>198DDD6E56807D5D56A23B326375A8004C2795BE</key>
+		<string>../../../../CommonCategoriesObjc</string>
 		<key>296CEA69A4E4045340250E1337B43AAC405E02C2</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>296CEA69A4E4045340250E1337B43AAC405E02C2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>198DDD6E56807D5D56A23B326375A8004C2795BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CommonCategoriesObjc</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

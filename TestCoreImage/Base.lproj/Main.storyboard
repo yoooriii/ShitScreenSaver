@@ -671,8 +671,18 @@
                     <view key="view" id="m2S-Jp-Qdl" customClass="TestView">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UnR-s3-xUv">
+                                <rect key="frame" x="18" y="231" width="309" height="21"/>
+                                <sliderCell key="cell" state="on" alignment="left" maxValue="1" doubleValue="0.5" tickMarkPosition="above" sliderType="linear" id="qk8-V6-XBf"/>
+                                <connections>
+                                    <action selector="actChangeTime:" target="XfG-lQ-9wD" id="QNC-fQ-qe4"/>
+                                </connections>
+                            </slider>
+                        </subviews>
                     </view>
                     <connections>
+                        <outlet property="slider" destination="UnR-s3-xUv" id="j0O-06-3sX"/>
                         <outlet property="testView" destination="m2S-Jp-Qdl" id="1ox-yq-Z1Z"/>
                     </connections>
                 </viewController>

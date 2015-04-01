@@ -10,6 +10,7 @@
 
 @interface TestView : NSView
 
-- (void)updateTime:(NSTimeInterval)dt;
+- (void)updateTime:(float)dt;
+- (void)setSrcImage:(NSString *)srcImgPath dstImage:(NSString *)dstImgPath;
 
 @end
