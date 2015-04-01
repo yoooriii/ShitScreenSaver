@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6E0C481E1AC0692900AF371C /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C481D1AC0692900AF371C /* thumbnail.png */; };
+		E25C80711ACB4109008C7394 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26EE9181ABF420B0080FCE4 /* CoreText.framework */; };
+		E25C80861ACB4152008C7394 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E25C80801ACB4152008C7394 /* Info.plist */; };
+		E25C80871ACB4152008C7394 /* MangaScreenSaver.h in Headers */ = {isa = PBXBuildFile; fileRef = E25C80811ACB4152008C7394 /* MangaScreenSaver.h */; };
+		E25C80881ACB4152008C7394 /* MangaScreenSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C80821ACB4152008C7394 /* MangaScreenSaver.m */; };
+		E25C80891ACB4152008C7394 /* OptionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25C80831ACB4152008C7394 /* OptionsWindow.xib */; };
+		E25C808A1ACB4152008C7394 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = E25C80851ACB4152008C7394 /* thumbnail.png */; };
+		E25C81441ACB431F008C7394 /* comix in Resources */ = {isa = PBXBuildFile; fileRef = E25C81431ACB431F008C7394 /* comix */; };
+		E25C814F1ACB672F008C7394 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C814E1ACB672F008C7394 /* AppDelegate.m */; };
+		E25C81511ACB672F008C7394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C81501ACB672F008C7394 /* main.m */; };
+		E25C81541ACB672F008C7394 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C81531ACB672F008C7394 /* ViewController.m */; };
+		E25C81561ACB672F008C7394 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25C81551ACB672F008C7394 /* Images.xcassets */; };
+		E25C81591ACB6730008C7394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25C81571ACB6730008C7394 /* Main.storyboard */; };
+		E25C816E1ACB67F3008C7394 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C816D1ACB67F3008C7394 /* TestView.m */; };
 		E26EE90D1ABEC9390080FCE4 /* FuckScreenSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = E26EE90C1ABEC9390080FCE4 /* FuckScreenSaverView.h */; };
 		E26EE90F1ABEC9390080FCE4 /* FuckScreenSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EE90E1ABEC9390080FCE4 /* FuckScreenSaverView.m */; };
 		E26EE9171ABED8F10080FCE4 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E26EE9161ABED8F10080FCE4 /* icon.jpg */; };
@@ -17,24 +30,31 @@
 		E26EE9281ABF54810080FCE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EE9271ABF54810080FCE4 /* main.m */; };
 		E26EE92B1ABF54810080FCE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EE92A1ABF54810080FCE4 /* ViewController.m */; };
 		E26EE92D1ABF54810080FCE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26EE92C1ABF54810080FCE4 /* Images.xcassets */; };
-		E26EE93C1ABF54810080FCE4 /* ScrSaverTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26EE93B1ABF54810080FCE4 /* ScrSaverTesterTests.m */; };
 		E26EE9431ABF54BE0080FCE4 /* quotations.txt in Resources */ = {isa = PBXBuildFile; fileRef = E26EE91A1ABF4C8A0080FCE4 /* quotations.txt */; };
 		E26EE9451ABF69D40080FCE4 /* OptionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26EE9441ABF69D40080FCE4 /* OptionsWindow.xib */; };
 		E26EE94F1ABF71210080FCE4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26EE94E1ABF71210080FCE4 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E26EE9361ABF54810080FCE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E26EE8FE1ABEC9380080FCE4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E26EE91F1ABF54810080FCE4;
-			remoteInfo = ScrSaverTester;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		6E0C481D1AC0692900AF371C /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		E25C807D1ACB4109008C7394 /* Manga Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manga Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25C80801ACB4152008C7394 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25C80811ACB4152008C7394 /* MangaScreenSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MangaScreenSaver.h; sourceTree = "<group>"; };
+		E25C80821ACB4152008C7394 /* MangaScreenSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MangaScreenSaver.m; sourceTree = "<group>"; };
+		E25C80831ACB4152008C7394 /* OptionsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsWindow.xib; sourceTree = "<group>"; };
+		E25C80851ACB4152008C7394 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		E25C81431ACB431F008C7394 /* comix */ = {isa = PBXFileReference; lastKnownFileType = folder; path = comix; sourceTree = "<group>"; };
+		E25C81491ACB672F008C7394 /* TestCoreImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25C814C1ACB672F008C7394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25C814D1ACB672F008C7394 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E25C814E1ACB672F008C7394 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E25C81501ACB672F008C7394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E25C81521ACB672F008C7394 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E25C81531ACB672F008C7394 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E25C81551ACB672F008C7394 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E25C81581ACB6730008C7394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E25C816C1ACB67F3008C7394 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		E25C816D1ACB67F3008C7394 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		E26EE9071ABEC9390080FCE4 /* Fuck Scr Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fuck Scr Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26EE90B1ABEC9390080FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26EE90C1ABEC9390080FCE4 /* FuckScreenSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckScreenSaverView.h; sourceTree = "<group>"; };
@@ -51,14 +71,26 @@
 		E26EE92A1ABF54810080FCE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E26EE92C1ABF54810080FCE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E26EE92F1ABF54810080FCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E26EE9351ABF54810080FCE4 /* ScrSaverTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrSaverTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E26EE93A1ABF54810080FCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E26EE93B1ABF54810080FCE4 /* ScrSaverTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrSaverTesterTests.m; sourceTree = "<group>"; };
 		E26EE9441ABF69D40080FCE4 /* OptionsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsWindow.xib; sourceTree = "<group>"; };
 		E26EE94E1ABF71210080FCE4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = FuckScreenSaver/Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E25C80701ACB4109008C7394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C80711ACB4109008C7394 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25C81461ACB672F008C7394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E26EE9031ABEC9390080FCE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,24 +106,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26EE9321ABF54810080FCE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E25C807F1ACB4152008C7394 /* MangaScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				E25C80801ACB4152008C7394 /* Info.plist */,
+				E25C80811ACB4152008C7394 /* MangaScreenSaver.h */,
+				E25C80821ACB4152008C7394 /* MangaScreenSaver.m */,
+				E25C80831ACB4152008C7394 /* OptionsWindow.xib */,
+				E25C80841ACB4152008C7394 /* resources */,
+			);
+			path = MangaScreenSaver;
+			sourceTree = "<group>";
+		};
+		E25C80841ACB4152008C7394 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E25C80851ACB4152008C7394 /* thumbnail.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		E25C808B1ACB4167008C7394 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E25C81431ACB431F008C7394 /* comix */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E25C814A1ACB672F008C7394 /* TestCoreImage */ = {
+			isa = PBXGroup;
+			children = (
+				E25C814D1ACB672F008C7394 /* AppDelegate.h */,
+				E25C814E1ACB672F008C7394 /* AppDelegate.m */,
+				E25C81521ACB672F008C7394 /* ViewController.h */,
+				E25C81531ACB672F008C7394 /* ViewController.m */,
+				E25C81551ACB672F008C7394 /* Images.xcassets */,
+				E25C81571ACB6730008C7394 /* Main.storyboard */,
+				E25C814B1ACB672F008C7394 /* Supporting Files */,
+				E25C816C1ACB67F3008C7394 /* TestView.h */,
+				E25C816D1ACB67F3008C7394 /* TestView.m */,
+			);
+			path = TestCoreImage;
+			sourceTree = "<group>";
+		};
+		E25C814B1ACB672F008C7394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25C814C1ACB672F008C7394 /* Info.plist */,
+				E25C81501ACB672F008C7394 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E26EE8FD1ABEC9380080FCE4 = {
 			isa = PBXGroup;
 			children = (
+				E25C808B1ACB4167008C7394 /* Resources */,
+				E25C807F1ACB4152008C7394 /* MangaScreenSaver */,
 				E26EE94E1ABF71210080FCE4 /* Media.xcassets */,
+				E25C814A1ACB672F008C7394 /* TestCoreImage */,
 				E26EE94D1ABF70D40080FCE4 /* Frameworks */,
 				E26EE9091ABEC9390080FCE4 /* FuckScreenSaver */,
 				E26EE9211ABF54810080FCE4 /* ScrSaverTester */,
-				E26EE9381ABF54810080FCE4 /* ScrSaverTesterTests */,
 				E26EE9081ABEC9390080FCE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +181,8 @@
 			children = (
 				E26EE9071ABEC9390080FCE4 /* Fuck Scr Saver.saver */,
 				E26EE9201ABF54810080FCE4 /* ScrSaverTester.app */,
-				E26EE9351ABF54810080FCE4 /* ScrSaverTesterTests.xctest */,
+				E25C807D1ACB4109008C7394 /* Manga Screen Saver.saver */,
+				E25C81491ACB672F008C7394 /* TestCoreImage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,23 +240,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E26EE9381ABF54810080FCE4 /* ScrSaverTesterTests */ = {
-			isa = PBXGroup;
-			children = (
-				E26EE93B1ABF54810080FCE4 /* ScrSaverTesterTests.m */,
-				E26EE9391ABF54810080FCE4 /* Supporting Files */,
-			);
-			path = ScrSaverTesterTests;
-			sourceTree = "<group>";
-		};
-		E26EE9391ABF54810080FCE4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E26EE93A1ABF54810080FCE4 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		E26EE94D1ABF70D40080FCE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +251,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		E25C80721ACB4109008C7394 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C80871ACB4152008C7394 /* MangaScreenSaver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E26EE9041ABEC9390080FCE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +270,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		E25C806D1ACB4109008C7394 /* MangaScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25C807A1ACB4109008C7394 /* Build configuration list for PBXNativeTarget "MangaScreenSaver" */;
+			buildPhases = (
+				E25C806E1ACB4109008C7394 /* Sources */,
+				E25C80701ACB4109008C7394 /* Frameworks */,
+				E25C80721ACB4109008C7394 /* Headers */,
+				E25C80741ACB4109008C7394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangaScreenSaver;
+			productName = FuckScreenSaver;
+			productReference = E25C807D1ACB4109008C7394 /* Manga Screen Saver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E25C81481ACB672F008C7394 /* TestCoreImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25C81661ACB6730008C7394 /* Build configuration list for PBXNativeTarget "TestCoreImage" */;
+			buildPhases = (
+				E25C81451ACB672F008C7394 /* Sources */,
+				E25C81461ACB672F008C7394 /* Frameworks */,
+				E25C81471ACB672F008C7394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestCoreImage;
+			productName = TestCoreImage;
+			productReference = E25C81491ACB672F008C7394 /* TestCoreImage.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E26EE9061ABEC9390080FCE4 /* FuckScreenSaver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E26EE9121ABEC9390080FCE4 /* Build configuration list for PBXNativeTarget "FuckScreenSaver" */;
@@ -233,24 +340,6 @@
 			productReference = E26EE9201ABF54810080FCE4 /* ScrSaverTester.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E26EE9341ABF54810080FCE4 /* ScrSaverTesterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E26EE9401ABF54810080FCE4 /* Build configuration list for PBXNativeTarget "ScrSaverTesterTests" */;
-			buildPhases = (
-				E26EE9311ABF54810080FCE4 /* Sources */,
-				E26EE9321ABF54810080FCE4 /* Frameworks */,
-				E26EE9331ABF54810080FCE4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E26EE9371ABF54810080FCE4 /* PBXTargetDependency */,
-			);
-			name = ScrSaverTesterTests;
-			productName = ScrSaverTesterTests;
-			productReference = E26EE9351ABF54810080FCE4 /* ScrSaverTesterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,15 +349,14 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Horns & Hoofs";
 				TargetAttributes = {
+					E25C81481ACB672F008C7394 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					E26EE9061ABEC9390080FCE4 = {
 						CreatedOnToolsVersion = 6.2;
 					};
 					E26EE91F1ABF54810080FCE4 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					E26EE9341ABF54810080FCE4 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = E26EE91F1ABF54810080FCE4;
 					};
 				};
 			};
@@ -287,12 +375,33 @@
 			targets = (
 				E26EE9061ABEC9390080FCE4 /* FuckScreenSaver */,
 				E26EE91F1ABF54810080FCE4 /* ScrSaverTester */,
-				E26EE9341ABF54810080FCE4 /* ScrSaverTesterTests */,
+				E25C806D1ACB4109008C7394 /* MangaScreenSaver */,
+				E25C81481ACB672F008C7394 /* TestCoreImage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E25C80741ACB4109008C7394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C80891ACB4152008C7394 /* OptionsWindow.xib in Resources */,
+				E25C81441ACB431F008C7394 /* comix in Resources */,
+				E25C80861ACB4152008C7394 /* Info.plist in Resources */,
+				E25C808A1ACB4152008C7394 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25C81471ACB672F008C7394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C81561ACB672F008C7394 /* Images.xcassets in Resources */,
+				E25C81591ACB6730008C7394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E26EE9051ABEC9390080FCE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,16 +423,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26EE9331ABF54810080FCE4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E25C806E1ACB4109008C7394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C80881ACB4152008C7394 /* MangaScreenSaver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25C81451ACB672F008C7394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25C816E1ACB67F3008C7394 /* TestView.m in Sources */,
+				E25C81541ACB672F008C7394 /* ViewController.m in Sources */,
+				E25C81511ACB672F008C7394 /* main.m in Sources */,
+				E25C814F1ACB672F008C7394 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E26EE9021ABEC9390080FCE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,25 +463,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26EE9311ABF54810080FCE4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E26EE93C1ABF54810080FCE4 /* ScrSaverTesterTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		E26EE9371ABF54810080FCE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E26EE91F1ABF54810080FCE4 /* ScrSaverTester */;
-			targetProxy = E26EE9361ABF54810080FCE4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
+		E25C81571ACB6730008C7394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E25C81581ACB6730008C7394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E26EE92E1ABF54810080FCE4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,6 +485,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E25C807B1ACB4109008C7394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MangaScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "Manga Screen Saver";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		E25C807C1ACB4109008C7394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MangaScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "Manga Screen Saver";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		E25C81671ACB6730008C7394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestCoreImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E25C81681ACB6730008C7394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestCoreImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		E26EE9101ABEC9390080FCE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -496,45 +659,26 @@
 			};
 			name = Release;
 		};
-		E26EE9411ABF54810080FCE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ScrSaverTesterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrSaverTester.app/Contents/MacOS/ScrSaverTester";
-			};
-			name = Debug;
-		};
-		E26EE9421ABF54810080FCE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ScrSaverTesterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrSaverTester.app/Contents/MacOS/ScrSaverTester";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E25C807A1ACB4109008C7394 /* Build configuration list for PBXNativeTarget "MangaScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25C807B1ACB4109008C7394 /* Debug */,
+				E25C807C1ACB4109008C7394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25C81661ACB6730008C7394 /* Build configuration list for PBXNativeTarget "TestCoreImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25C81671ACB6730008C7394 /* Debug */,
+				E25C81681ACB6730008C7394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		E26EE9011ABEC9380080FCE4 /* Build configuration list for PBXProject "FuckScreenSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,15 +702,6 @@
 			buildConfigurations = (
 				E26EE93E1ABF54810080FCE4 /* Debug */,
 				E26EE93F1ABF54810080FCE4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E26EE9401ABF54810080FCE4 /* Build configuration list for PBXNativeTarget "ScrSaverTesterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E26EE9411ABF54810080FCE4 /* Debug */,
-				E26EE9421ABF54810080FCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
